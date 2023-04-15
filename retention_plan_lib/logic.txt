@@ -1,0 +1,9 @@
+Criar um módulo 'RetentionPlanRules' que armazene as regras de cada plano de retenção de acordo com a descrição do desafio.
+
+Criar um serviço RetentionPlanValidationService que valide se o plano de retenção e a data passados como parâmetros são válidos.
+
+Criar um serviço RetentionPlanService que, com base nas regras do plano de retenção passado como parâmetro, determine se um snapshot deve ser retido ou não para uma determinada data.
+
+Criar uma classe RetentionPlan que disponibilize um método estático should_retain_snapshot? que chame o serviço RetentionPlanService e retorne um booleano indicando se o snapshot deve ser retido ou não.
+
+Escrever testes para as classes e serviços desenvolvidos para garantir que a lógica está implementada corretamente.
