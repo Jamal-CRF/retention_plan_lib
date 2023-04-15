@@ -12,12 +12,12 @@
     We need to create a lib that receives a retention plan and a date, and it should tell us if the snapshot for this date should be retained or deleted.
 
     The plans and rules are the following:
-    - Standard: 42 days retention
+     Standard: 42 days retention
           We will retain each snapshot daily for 42 days
-    - Gold: 42 days and 12 months retention
+     Gold: 42 days and 12 months retention
            We will retain each snapshot daily for 42 days
            We will retain the last snapshot of the month for 12 months
-    - Platinum (42 days, 12 months and 7 years)
+     Platinum (42 days, 12 months and 7 years)
            We will retain each snapshot daily for 42 days
            We will retain the last snapshot of the month for 12 months
            We will retain the last snapshot of the year for 7 years</em>
