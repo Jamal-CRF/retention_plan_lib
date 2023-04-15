@@ -24,9 +24,9 @@
 
 <p>This library was developed using Ruby and depends on the following external gems:</p>
 
-<p>active_support - provides several utility classes and standard library extensions that are useful for Ruby applications.</p>
+<strong>active_support - provides several utility classes and standard library extensions that are useful for Ruby applications.</strong>
 
-<p>rspec - a testing framework for Ruby, used for the development of unit tests.</p>
+<strong>rspec - a testing framework for Ruby, used for the development of unit tests.</strong>
 
 <h2> 🚀 How to run the project</h2>
 
