@@ -9,7 +9,7 @@
 
 <p> When we backup a specific ERP instance, we keep the snapshot copies according to the Retention Plan. So, if the rule of the retention plan is to keep the snapshots for 7 days, it would mean that a snapshot created today should be deleted after 7 days, and so on. This library receives a retention plan and a date, and it should tell us if the snapshot for this date should be retained or deleted. </p>
     
-<h1>The plans and rules are the following:</h1>
+<h2>The plans and rules are the following:</h2>
   <li> Standard: 42 days retention
     We will retain each snapshot daily for 42 days</li>
   <li> Gold: 42 days and 12 months retention </li>
