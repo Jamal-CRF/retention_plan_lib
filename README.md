@@ -5,7 +5,7 @@
 <h1>Retention Plan Lib</h1>
 <p> A Ruby library to manage retention plans for snapshots backups.</p>
 
-<h1> 🎬 About project</h1>
+<h2> 🎬 About project</h2>
 
 <p> When we backup a specific ERP instance, we keep the snapshot copies according to the Retention Plan. So, if the rule of the retention plan is to keep the snapshots for 7 days, it would mean that a snapshot created today should be deleted after 7 days, and so on. This library receives a retention plan and a date, and it should tell us if the snapshot for this date should be retained or deleted. </p>
     
@@ -34,11 +34,16 @@
 
 <p>After installing Ruby, clone this repository to your local machine:</p>
 
-<p> git clone https://github.com/<username>/retention_plan_lib.git </p>
+ ```sh
+   git@github.com:Jamal-CRF/retention_plan_lib.git
+  ```
 
 <p>Then, navigate to the project's directory and run:</p>
 
-<p> bundle install </p>
+ ```sh
+   bundle install
+  ```
+<p> </p>
 
 
 <h2> 📝 How to use the library</h2>
@@ -46,20 +51,24 @@
 <p> Usage
 To use this library, you can require the retention_plan file in your project and call the should_retain_snapshot? method, passing the retention plan symbol and a date object as parameters: </p>
 
-<p> require_relative 'lib/retention_plan' </p>
-<p>RetentionPlan.should_retain_snapshot?(:standard, Date.today - 20.days)</p>
-# => true 
+ ```sh 
+  require_relative 'lib/retention_plan'
+  RetentionPlan.should_retain_snapshot?(:standard, Date.today - 20.days)
+  # => true 
+  ```
 
 <h2> 📝 How to run the tests</h2>
 
 This library was developed using Test-Driven Development (TDD) and all tests are located in the spec directory. To run the tests, navigate to the project's directory and run:
 
-<p> rspec </p>
+```sh
+   rspec
+  ```
 
-<h2> Author/h2>
+<h2> Author</h2>
 
 <img src="https://avatars.githubusercontent.com/u/68801163?s=96&v=4" width="110" title="hover text">
 
 <p>Developed by <a href="https://www.linkedin.com/in/lucasaraujomouta/">Lucas Araujo</a>.</strong></p>
 
-<h2> 📝 License</h2>
+<h2>📝 License</h2>
