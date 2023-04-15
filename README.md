@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://www.skie.io/images/skie_logo.svg" width="200" title="hover text">
   
 </p>
@@ -80,3 +80,4 @@ This library was developed using Test-Driven Development (TDD) and all tests are
 <p><a href="https://www.rubyguides.com/2018/11/rspec-introduction/"> Rspec </a></p>
 <p><a href="https://medium.com/@anchietajunior/c%C3%B3digo-organizado-reutiliz%C3%A1vel-e-f%C3%A1cil-de-testar-utilizando-ruby-service-objects-80c750876610/"> Artigo - Ruby Service Objects </a></p>
 
+-->
