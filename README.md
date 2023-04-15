@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=https://www.skie.io/" width="400" title="hover text">
+  <img src="https://www.skie.io/images/skie_logo.svg" width="400" title="hover text">
   
 </p>
 <h1>Retention Plan Lib</h1>
