@@ -71,4 +71,11 @@ This library was developed using Test-Driven Development (TDD) and all tests are
 
 <p>Developed by <a href="https://www.linkedin.com/in/lucasaraujomouta/">Lucas Araujo</a>.</strong></p>
 
-<h2>📝 License</h2>
+
+
+<h2> 📝 references</h2>
+
+<p><a href="https://leanpub.com/conhecendo-ruby"> Lvro - Conhecendo Ruby </a>
+<a href="https://www.ruby-lang.org/pt/"> Ruby </a>
+<a href="https://www.rubyguides.com/2018/11/rspec-introduction/"> Rspec </a>
+<a href="https://medium.com/@anchietajunior/c%C3%B3digo-organizado-reutiliz%C3%A1vel-e-f%C3%A1cil-de-testar-utilizando-ruby-service-objects-80c750876610/"> Artigo - Ruby Service Objects </a></p>
